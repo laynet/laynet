@@ -1,24 +1,36 @@
+header {
+  background-color: #e3f2f1;
+  text-align: center;
+}
+
 h1 {
-  color: blue;
-  background-color: #679ef7;
+  color: #39a39f;
+  background-color: #e3f2f1;
 }
 
 .personalinfo {
-  background-color: #679ef7;
+  background-color: #e3f2f1;
 }
 
 nav {
-  background-color: #679ef7;
+  background-color: #e3f2f1;
+  text-align: center;
+  font-size: 40px;
 }
 
-#education {
-  background-color: #679ef7;
+#picureOfMe {
+  max-width: 100%;
+  height: auto;
+}
+
+/* #education {
+  background-color: #e3f2f1;
 }
 
 #skills {
-  background-color: #679ef7;
+  background-color: #e3f2f1;
 }
 
 #experience {
-  background-color: #679ef7;
-}
+  background-color: #e3f2f1;
+} */

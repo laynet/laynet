@@ -3,46 +3,45 @@
 <head>
   <title>Layne Taylor's Resume</title>
   <link href="style.css" rel="stylesheet">
-  <script src="app.js"></script>
+
 </head>
 <body>
-  <button id='show-more'>Show more</button>
+
 <header>
-  <h1>Layne Taylor</h1>
+  <h1 id='myHeading'>Layne Taylor</h1>
+  <!-- instructions from treehouse on DOM manipulation -->
+  <!-- <input type="text" id="myTextInput">
+  <button id="myButton">Change Headline Color</button> -->
   <section class="personalinfo">
     <p>1344 West 19th Street 3R</p>
     <p>Chicago, IL 60608</p>
     <p>layneingramtaylor@gmail.com</p>
     <p>850.376.5519</p>
+
   </section>
 </header>
+
   <nav>
-    <a  href='#education'>Education</a>
-    <a href='#skills'>Skills</a>
-    <a href='#Experience'>Experience</a>
+    <a  href='education.html' target='_blank'>Education</a>
+    <a href='skills.html' target='_blank'>Skills</a>
+    <a href='experience.html' target='blank'>Experience</a>
   </nav>
 
-  <section id="education">
-    <h2>Education</h2>
-    <p>Bloc</p>
-    <p>University of South Florida</p>
+  <section>
+    <h2>About Me</h2>
+    <!-- i need to fix this aspect ration but idk how -->
+    <img id='pictureOfMe' src='laynet.jpg' width="600" height="700" alt='a beautiful picture of my face'>
+    <p>I went to school for photography on a full ride scholarship before the housing market crash, so I was poor my whole adult life. Then I decided to change careers and do coding and here i am give me a fucking job</p>
+    <a href="https://www.linkedin.com/in/layne-taylor/" target='_blank'>Connect with me on Linkedin</a>
   </section>
 
-  <section id="skills">
-    <h3>Skills</h3>
-      <p>HTML</p>
-      <p>CSS</p>
-      <p>JavaScript</p>
-      <p>Agile Teams</p>
-  </section>
-  <section id="experience">
-    <h3>Experience</h3>
-      <p>Nash Disability Law firm</p>
-      <p>moto restaurant</p>
-      <p>Sylvan Learning Center</p>
-    </h3>
 
 
 
+
+
+
+
+<script src="app.js"></script>
 </body>
 </html>
