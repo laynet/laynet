@@ -1,3 +1,7 @@
+* {
+  background-color: #e3f2f1;
+}
+
 header {
   background-color: #e3f2f1;
   text-align: center;
@@ -16,21 +20,30 @@ nav {
   background-color: #e3f2f1;
   text-align: center;
   font-size: 40px;
+
+}
+
+
+
+a {
+  text-decoration: none;
+  font-size: 30px;
+  color: #39a39f;
+}
+
+
+a:hover {
+  color: #c65c60;
+}
+
+/*I can't get a:visited to work*/
+
+#aboutMe {
+  text-align: center;
+  color: #39a39f;
 }
 
 #picureOfMe {
   max-width: 100%;
   height: auto;
 }
-
-/* #education {
-  background-color: #e3f2f1;
-}
-
-#skills {
-  background-color: #e3f2f1;
-}
-
-#experience {
-  background-color: #e3f2f1;
-} */
