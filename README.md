@@ -26,6 +26,6 @@ HTML, CSS (Sass, tailwind), Javascript (ES6, ReactJS, Redux, NodeJS, JSX, NextJS
 [![My Skills](https://skillicons.dev/icons?i=html,css,sass,tailwind,js,react,nodejs,nextjs,bootstrap,postgres,express,git,yarn,npm,figma)](https://skillicons.dev)
 
 
-## 📫 How to reach me:
+- 📫 How to reach me:
 [LinkedIn](https://www.linkedin.com/in/layne-taylor/)
 [gmail](layneingramtaylor@gmail.com)
